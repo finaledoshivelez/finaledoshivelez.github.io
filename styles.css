@@ -1,0 +1,110 @@
+/* Apply global styles to the entire page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the banner section with flexbox */
+.banner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: #3C5E0F;
+}
+
+/* Style the banner section with flexbox */
+.mainbanner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    background-color: #3C5E0F;
+}
+
+
+/* Style the banner title with light green color, bold font, and Courier font family */
+.text {
+    font-size: 30px;
+    font-weight: bold;
+    color: #F4FF00;
+    font-family: Georgia;
+    text-align: center;
+}
+
+/* Style the main content section with padding, font size, and line height */
+.content {
+    padding: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+/* Style the links section with flexbox */
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+/* Style the link text with larger font size and black color */
+.links a {
+    margin: 0 20px;
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+}
+
+/* For the image gallery */
+.container2 {
+    display: flex;
+}
+
+.container2 img {
+    width: 250px;
+    margin-right: 20px;
+}
+
+/* For the image gallery */
+      .container {
+	  max-width: 1224px;
+	  width: 90%;
+	  margin: auto;
+      }
+
+      .photo-gallery {
+	  display: flex;
+	  gap: 20px;
+      }
+
+      .column {
+	  display: flex;
+	  flex-direction: column;
+	  gap: 20px;
+      }
+
+      
+      .photo img {
+	  width: 100%;
+	  border-radius: 5px;
+	  height: 100%;
+	  object-fit: cover;
+      }
+
+      @media(max-width: 768px){
+	  .photo-gallery {
+	      flex-direction: column;
+	  }
+      }
+
+      
+      /* Media query for smaller screens */
+      @media screen and (max-width: 600px) {
+	  .text {
+	      font-size: 32px;
+	  }
