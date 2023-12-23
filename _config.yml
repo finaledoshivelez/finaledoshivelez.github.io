@@ -1,0 +1,12 @@
+# Site settings
+title: Finale Doshi-Velez
+email: 
+description: > # this means to ignore newlines until "baseurl:"
+  Fantasy writer Finale Doshi-Velez
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://finaledoshivelez.github.io" # the base hostname & protocol for your site
+twitter_username: 
+github_username:  finaledoshivelez
+
+# Build settings
+markdown: kramdown
