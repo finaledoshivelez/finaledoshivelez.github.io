@@ -5,6 +5,7 @@
 -->
 
 <head>
+  
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="description" content="{{ site.description }}">
@@ -34,6 +35,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">    
 
+ <!-- open graph tags used to inform social media sites what to show if someone shares this page -->
+    <!-- this line is needed for Twitter to render a nice preview of the page-->
+    <meta name="twitter:card" content="summary"/>
+    <!-- make sure the image is at least 200x200px; FB won't show smaller images -->
+    <meta property="og:image" content="https://finaledoshivelez.github.io/images/headshot.png"/><!-- url of an image to be shown on FB and Twitter when this page is shared -->
+    <meta property="og:site_name" content="Finale Doshi-Velez: Fantasy Writer"/>
+    <meta property="og:title" content="Finale Doshi-Velez: Fantasy Writer"/>
+    <meta property="og:url" content="https://finaledoshivelez.github.io/"/>
+    <meta property="og:description" content="'To save her daughter from conscription, one mother sets out to avert the war.' Curious?  Learn about Finale's fiction projects and subscribe for updates."/>
+    <meta property="og:type" content="website" />
+    
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-VGXLEJCGBR"></script>
 <script>
